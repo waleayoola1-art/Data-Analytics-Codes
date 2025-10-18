@@ -1,0 +1,30 @@
+use 1to10x;
+
+create table students (
+sid int,
+`name` varchar(150),
+age int,
+email varchar(100));
+
+-- populate the table
+
+insert into students values
+(1, 'malm anj', 32, 'mm@gmail.com');
+
+insert into students values
+(2, 'hassan', 40, 'hss@gmail.com');
+
+insert into students values
+(3, 'musbau folusho', 43, 'musbauf@gmail.com');
+
+show databases;
+
+show tables;
+
+select * from students;
+
+select age, `name`, sid from students;
+
+alter table students
+add column Dob date
+Select * from database
